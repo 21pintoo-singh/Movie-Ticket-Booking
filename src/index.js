@@ -13,7 +13,7 @@ app.use(bodyParser.json()); // tells the system that you want json to be used
 // mongoDb connection
 mongoose
   .connect(
-    "mongodb+srv://mepsbisht:india1124@cluster0.wl58p.mongodb.net/movie-ticket-system?retryWrites=true&w=majority",
+    "mongodb+srv://21pintoo-singh:S0Uw8LhNlYRyHfiq@cluster1.k5nsu.mongodb.net/pintoo",
     {
       useNewUrlParser: true,
     }

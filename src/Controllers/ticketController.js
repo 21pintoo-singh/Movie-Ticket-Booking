@@ -1,7 +1,7 @@
-const ticketModel = require('../Models/ticketModel')
-const moviesModel = require('../Models/moviesModel')
-const theaterModel = require('../Models/theaterModel')
-const {isValidRequest} = require('../validator/validator')
+const ticketModel = require('../Models/ticketModel');
+const moviesModel = require('../Models/moviesModel');
+const theaterModel = require('../Models/theaterModel');
+const {isValidRequest} = require('../validator/validator');
 const bookTicket = async function(req, res){
     try{
         if(!isValidRequest(req.body)){

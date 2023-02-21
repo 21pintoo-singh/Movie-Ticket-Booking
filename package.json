@@ -4,13 +4,14 @@
   "description": "\"Movie-ticket-booking\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/21pintoo-singh/Movie-Ticket-Booking.git"
   },
-  "author": "\"Pratham Singh\"",
+  "author": "\"Pintoo Singh\"",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/21pintoo-singh/Movie-Ticket-Booking.git"

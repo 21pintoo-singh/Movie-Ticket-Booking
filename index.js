@@ -1,8 +1,8 @@
 const express = require("express");
 var bodyParser = require("body-parser");
 const mongoose  = require("mongoose");
-
-const route = require("./Route/route.js");
+mongoose.set('strictQuery', false);
+const route = require("./src/Route/route.js");
 const app = express();
 
 

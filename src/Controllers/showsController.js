@@ -1,5 +1,5 @@
-const showsModel = require('../Models/showsModel')
-const {isValidRequest} = require('../validator/validator')
+const showsModel = require('../Models/showsModel');
+const {isValidRequest} = require('../validator/validator');
 const createShow = async function(req,res){
     try{
         if(!isValidRequest(req.body)){
@@ -12,4 +12,4 @@ const createShow = async function(req,res){
     }
 }
 
-module.exports = {createShow}
+module.exports = {createShow};

@@ -35,10 +35,10 @@ const createMovie = async function (req, res) {
         return res.status(400).send({status: false,message:"genre is required"})
     }
     if(!isValidString(genre) || !isValidName(genre)){
-        return res.status(400).send({status: false,message:"Enter valid genre"})
+        return res.status(400).send({status: false,message:"Enter valid genre"});
     }
     if(!director){
-        return res.status(400).send({status: false,message:"director is required"})
+        return res.status(400).send({status: false,message:"director is required"});
     }
     if(!isValidString(director) || !isValidName(director)){
         return res.status(400).send({status: false,message:"Enter valid director name"})

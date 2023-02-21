@@ -4,6 +4,7 @@ const isValidRequest = function(data){
     }
     return true
   }
+  
 
 const isValidString = function (value) {
     if (!value) return false;

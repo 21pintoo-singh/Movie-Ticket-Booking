@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mepsbisht/Movie-ticket-Booking.git"
+    "url": "https://github.com/21pintoo-singh/Movie-Ticket-Booking.git"
   },
   "author": "\"Pratham Singh\"",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mepsbisht/Movie-ticket-Booking.git"
+    "url": "https://github.com/21pintoo-singh/Movie-Ticket-Booking.git"
   },
-  "homepage": "https://github.com/mepsbisht/Movie-ticket-Booking.git",
+  "homepage": "https://github.com/21pintoo-singh/Movie-Ticket-Booking.git",
   "dependencies": {
     "body-parser": "^1.20.0",
     "express": "^4.18.1",

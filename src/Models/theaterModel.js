@@ -23,3 +23,4 @@ const theaterSchema = new mongoose.Schema({
 
 module.exports = mongoose.model('theater',theaterSchema)
 
+

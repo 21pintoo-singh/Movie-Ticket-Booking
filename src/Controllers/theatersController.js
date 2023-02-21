@@ -1,4 +1,4 @@
-const theaterModel = require('../Models/theaterModel')
+const theaterModel = require('../Models/theaterModel');
 const { isValidRequest, isValidString, isValidName } = require('../validator/validator')
 
 const createTheater = async function (req,res){
